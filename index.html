@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark ">
+            <div class="container-fluid ">
+
+                <div class="collapse navbar-collapse  " id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <!-- <li class="nav-item text-white">
+                            <i class="fa-solid fa-heart-crack "></i>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" aria-current="page" href="#">Contacts</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn  bg-warning text-white " type="submit">Join Us</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="images/1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container w-100">
+        <section class="text-center row container-fluid ps-5 d-flex justify-content-center">
+            <h2 class="mb-4 mt-4">About us</h2>
+            <div class="col-6 ">
+                <p class="text-start lh-lg ms-3 me-auto">Lorem ipsum <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid corrupti optio at nihil quo
+                    dolores hic provident vero odit ex, nesciunt numquam facilis nostrum fuga natus debitis quam? Facere
+                    accusantium eveniet itaque officia sapiente perspiciatis. Temporibus modi eligendi corporis sit
+                    maiores blanditiis vitae ex cumque magni placeat aspernatur, accusamus, inventore possimus
+                    dignissimos vel quia, cum eaque veritatis odit libero atque laborum. Quod, accusamus. At temporibus,
+                    dolore placeat exercitationem sapiente facere harum corrupti id, cumque laboriosam optio porro quam
+                    fugit? Consectetur, possimus suscipit! Dolore qui architecto dolorem obcaecati repellendus
+                    consequuntur aliquid. Labore exercitationem quam tenetur tempora possimus deleniti dolorum, maxime
+                    sint reiciendis voluptates aliquid voluptate laborum a laudantium ratione cum est
+                </p>
+            </div>
+            <img src="images/4.jpg" alt="" class="col-6">
+
+
+        </section>
+        <section class=" row container-fluid ps-5 ">
+            <div class="col-6 ms-3">
+                <h2 class="mt-4 text-warning"> Mental Health</h2>
+                <p class=" lh-lg  me-auto">
+                    dolor, sit amet consectetur adipisicing elit. In nemo deserunt recusandae placeat, odit fuga
+                    doloremque aperiam, vitae itaque laboriosam eum libero, distinctio dignissimos sapiente? Eum dolorem
+                    rerum aliquid officia laborum qui, repellendus neque tempora blanditiis! Animi consequatur tenetur
+                    eos
+                    dolores ab? Doloremque, accusantium! Veritatis sit eos nobis eaque, dolorem dolores, rem aspernatur
+                </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    show modal
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas qui eveniet, cumque
+                                in
+                                aut odio vero voluptatibus, voluptatum excepturi, ad quo? Accusamus laborum labore animi
+                                praesentium vel reiciendis necessitatibus eius? </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-danger">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-group list-group-flush col-5 mt-4">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
+            </ul>
+        </section>
+
+        <section class=" container-fluid  mb-5 ">
+            <h2 class="text-danger text-center">Activites</h2>
+            <div class="   d-flex  justify-content-center gap-5">
+
+                <div class="card col-3">
+                    <img src="images/mental.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card’s content.</p>
+                        <a href="#" class="btn btn-warning">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card col-3 ">
+                    <img src="images/mental.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card’s content.</p>
+                        <a href="#" class="btn btn-warning ">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card col-3">
+                    <img src="images/mental.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card’s content.</p>
+                        <a href="#" class="btn btn-warning">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class=" container-fluid  mb-5 ">
+            <h2 class="text-danger text-center">Applications</h2>
+            <div class="   d-flex flex-column justify-content-center gap-5">
+
+                <div class="row justify-content-center gap-5">
+
+                    <div class="card col-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-3 ">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning ">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center gap-5">
+
+
+                    <div class="card col-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="d-flex justify-content-center p-5 bg-black">
+        <div class="feedback w-50">
+            <h2 class="text-warning">send Us feedback</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                    <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control w-75" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+
+            </form>
+        </div>
+        <div class="Contacts w-50">
+            <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum repellat
+                facere aut dolore cum,
+                autem, rerum hic ab perspiciatis quisquam nemo nostrum nobis atque, optio est esse veritatis adipisci!
+            </p>
+            <i class="fa-brands fa-facebook text-danger"></i>
+            <i class="fa-brands fa-whatsapp text-danger"></i>
+            <i class="fa-brands fa-instagram text-danger"></i>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
